@@ -1,0 +1,1337 @@
+nohup: ignoring input
+{'node_num': 128, 'miss_percent': 0.1, 'seed': 2050, 'batch_size': 1024, 'lr_net': 0.001, 'lr_dyn': 0.0001, 'epoch': 400}
+
+Matrix dimension: torch.Size([128, 128]) 
+Train data size: torch.Size([10000, 128, 2, 1]) 
+Val data size: torch.Size([2000, 128, 2, 1]) 
+Test data size: torch.Size([2000, 128, 2, 1])
+epoch: 0
+train loss: 0.010838473265878213
+auc: 0.4980656013456686
+epoch: 1
+train loss: 0.005467824111863216
+auc: 0.49903880812207135
+epoch: 2
+train loss: 0.003924175606541745
+auc: 0.4981256758380392
+epoch: 3
+train loss: 0.0023762614460604804
+auc: 0.5003484320557491
+estimated end time: 2021 / 2 / 6    12 : 26
+epoch: 4
+train loss: 0.001427743199816052
+auc: 0.500660819416076
+estimated end time: 2021 / 2 / 6    12 : 26
+epoch: 5
+train loss: 0.0008533177575812041
+auc: 0.5013576835275743
+estimated end time: 2021 / 2 / 6    12 : 26
+epoch: 6
+train loss: 0.00036680834494071514
+auc: 0.5010693259641956
+estimated end time: 2021 / 2 / 6    12 : 26
+epoch: 7
+train loss: 0.00017953339033581494
+auc: 0.5013817133245224
+estimated end time: 2021 / 2 / 6    12 : 26
+epoch: 8
+train loss: 8.410348387017088e-05
+auc: 0.5016941006848492
+estimated end time: 2021 / 2 / 6    12 : 26
+epoch: 9
+train loss: 6.278410884737366e-05
+auc: 0.5018623092634867
+estimated end time: 2021 / 2 / 6    12 : 26
+epoch: 10
+train loss: 4.897702241076582e-05
+auc: 0.5030037246185269
+estimated end time: 2021 / 2 / 6    12 : 26
+epoch: 11
+train loss: 4.200407831674589e-05
+auc: 0.5047458848972726
+estimated end time: 2021 / 2 / 6    12 : 26
+epoch: 12
+train loss: 3.662113416253462e-05
+auc: 0.5070767752012495
+estimated end time: 2021 / 2 / 6    12 : 26
+epoch: 13
+train loss: 3.127027633691514e-05
+auc: 0.5106211702511114
+estimated end time: 2021 / 2 / 6    12 : 26
+epoch: 14
+train loss: 2.9885583008872972e-05
+auc: 0.5165325003003725
+estimated end time: 2021 / 2 / 6    12 : 26
+epoch: 15
+train loss: 2.8993137175348237e-05
+auc: 0.5239577075573711
+estimated end time: 2021 / 2 / 6    12 : 26
+epoch: 16
+train loss: 2.619516218060355e-05
+auc: 0.5346269374023789
+estimated end time: 2021 / 2 / 6    12 : 26
+epoch: 17
+train loss: 2.484695637890425e-05
+auc: 0.5444791541511474
+estimated end time: 2021 / 2 / 6    12 : 26
+epoch: 18
+train loss: 2.696652034595398e-05
+auc: 0.5556409948335936
+estimated end time: 2021 / 2 / 6    12 : 26
+epoch: 19
+train loss: 2.190073270557589e-05
+auc: 0.5638231406944612
+estimated end time: 2021 / 2 / 6    12 : 26
+epoch: 20
+train loss: 2.4036157881725778e-05
+auc: 0.5727021506668268
+estimated end time: 2021 / 2 / 6    12 : 26
+epoch: 21
+train loss: 2.4331304046325322e-05
+auc: 0.5811486242941246
+estimated end time: 2021 / 2 / 6    12 : 26
+epoch: 22
+train loss: 2.3198636381493997e-05
+auc: 0.5865673435059474
+estimated end time: 2021 / 2 / 6    12 : 26
+epoch: 23
+train loss: 2.940052661631006e-05
+auc: 0.5936801634026193
+estimated end time: 2021 / 2 / 6    12 : 26
+epoch: 24
+train loss: 2.803690018414931e-05
+auc: 0.5972365733509551
+estimated end time: 2021 / 2 / 6    12 : 26
+epoch: 25
+train loss: 2.6233052862043506e-05
+auc: 0.6005406704313347
+estimated end time: 2021 / 2 / 6    12 : 26
+epoch: 26
+train loss: 3.0244226415977117e-05
+auc: 0.603340141775802
+estimated end time: 2021 / 2 / 6    12 : 26
+epoch: 27
+train loss: 4.111399202276422e-05
+auc: 0.6020185029436501
+estimated end time: 2021 / 2 / 6    12 : 26
+epoch: 28
+train loss: 3.8060534376623326e-05
+auc: 0.604349393247627
+estimated end time: 2021 / 2 / 6    12 : 26
+epoch: 29
+train loss: 3.305591003168204e-05
+auc: 0.6074612519524211
+estimated end time: 2021 / 2 / 6    12 : 26
+epoch: 30
+train loss: 3.912276771710163e-05
+auc: 0.607353117866154
+estimated end time: 2021 / 2 / 6    12 : 26
+epoch: 31
+train loss: 3.958730400866224e-05
+auc: 0.6098281869518203
+estimated end time: 2021 / 2 / 6    12 : 25
+epoch: 32
+train loss: 3.859639903131712e-05
+auc: 0.6131202691337259
+estimated end time: 2021 / 2 / 6    12 : 25
+epoch: 33
+train loss: 3.5326209630793844e-05
+auc: 0.6133004926108374
+estimated end time: 2021 / 2 / 6    12 : 25
+epoch: 34
+train loss: 3.4440658944355355e-05
+auc: 0.6138772077375947
+estimated end time: 2021 / 2 / 6    12 : 24
+epoch: 35
+train loss: 3.240236165640517e-05
+auc: 0.6147062357323081
+estimated end time: 2021 / 2 / 6    12 : 24
+epoch: 36
+train loss: 2.9744113094003643e-05
+auc: 0.615138772077376
+estimated end time: 2021 / 2 / 6    12 : 23
+epoch: 37
+train loss: 3.0170737920994286e-05
+auc: 0.6145620569506187
+estimated end time: 2021 / 2 / 6    12 : 23
+epoch: 38
+train loss: 2.6046254240280427e-05
+auc: 0.615258921062117
+estimated end time: 2021 / 2 / 6    12 : 23
+epoch: 39
+train loss: 2.536091033264178e-05
+auc: 0.6159557851736153
+estimated end time: 2021 / 2 / 6    12 : 22
+epoch: 40
+train loss: 2.8341759467554673e-05
+auc: 0.6174456325844047
+estimated end time: 2021 / 2 / 6    12 : 22
+epoch: 41
+train loss: 2.291290995819101e-05
+auc: 0.619151748167728
+estimated end time: 2021 / 2 / 6    12 : 22
+epoch: 42
+train loss: 2.3004746235881548e-05
+auc: 0.6211462213144299
+estimated end time: 2021 / 2 / 6    12 : 22
+epoch: 43
+train loss: 2.088904527093699e-05
+auc: 0.6234530818214586
+estimated end time: 2021 / 2 / 6    12 : 21
+epoch: 44
+train loss: 2.4908905652213874e-05
+auc: 0.6243421843085426
+estimated end time: 2021 / 2 / 6    12 : 21
+epoch: 45
+train loss: 2.466404417285456e-05
+auc: 0.6283431455004205
+estimated end time: 2021 / 2 / 6    12 : 21
+epoch: 46
+train loss: 2.5901823328201224e-05
+auc: 0.6319956746365494
+estimated end time: 2021 / 2 / 6    12 : 21
+epoch: 47
+train loss: 2.6082520255464447e-05
+auc: 0.6335936561336057
+estimated end time: 2021 / 2 / 6    12 : 21
+epoch: 48
+train loss: 2.772599893240834e-05
+auc: 0.6364532019704434
+estimated end time: 2021 / 2 / 6    12 : 21
+epoch: 49
+train loss: 2.9037284899255483e-05
+auc: 0.6360687252192718
+estimated end time: 2021 / 2 / 6    12 : 20
+epoch: 50
+train loss: 2.9149345490670132e-05
+auc: 0.6359125315391085
+estimated end time: 2021 / 2 / 6    12 : 20
+epoch: 51
+train loss: 2.7564149233732115e-05
+auc: 0.6360326805238496
+estimated end time: 2021 / 2 / 6    12 : 20
+epoch: 52
+train loss: 2.9060808039056266e-05
+auc: 0.6334975369458128
+estimated end time: 2021 / 2 / 6    12 : 20
+epoch: 53
+train loss: 2.690915478128459e-05
+auc: 0.633521566742761
+estimated end time: 2021 / 2 / 6    12 : 19
+epoch: 54
+train loss: 2.390704334947384e-05
+auc: 0.6334975369458128
+estimated end time: 2021 / 2 / 6    12 : 19
+epoch: 55
+train loss: 3.129759874970408e-05
+auc: 0.6295085906524089
+estimated end time: 2021 / 2 / 6    12 : 19
+epoch: 56
+train loss: 3.4180083899423936e-05
+auc: 0.6274660579118108
+estimated end time: 2021 / 2 / 6    12 : 19
+epoch: 57
+train loss: 3.8253063663738616e-05
+auc: 0.6259762105010214
+estimated end time: 2021 / 2 / 6    12 : 19
+epoch: 58
+train loss: 3.4006592706787316e-05
+auc: 0.6263486723537186
+estimated end time: 2021 / 2 / 6    12 : 19
+epoch: 59
+train loss: 3.3751367636835406e-05
+auc: 0.6255797188513756
+estimated end time: 2021 / 2 / 6    12 : 19
+epoch: 60
+train loss: 3.1914986968315824e-05
+auc: 0.6250750931154632
+estimated end time: 2021 / 2 / 6    12 : 19
+epoch: 61
+train loss: 3.498369070837662e-05
+auc: 0.6247146461612398
+estimated end time: 2021 / 2 / 6    12 : 18
+epoch: 62
+train loss: 3.604389043065849e-05
+auc: 0.6232968881412952
+estimated end time: 2021 / 2 / 6    12 : 18
+epoch: 63
+train loss: 3.921528405279442e-05
+auc: 0.6209179382434218
+estimated end time: 2021 / 2 / 6    12 : 18
+epoch: 64
+train loss: 4.106380838199333e-05
+auc: 0.6191757779646762
+estimated end time: 2021 / 2 / 6    12 : 18
+epoch: 65
+train loss: 3.805230481910665e-05
+auc: 0.618935479995194
+estimated end time: 2021 / 2 / 6    12 : 18
+epoch: 66
+train loss: 3.3810990385259646e-05
+auc: 0.6182866754775922
+estimated end time: 2021 / 2 / 6    12 : 18
+epoch: 67
+train loss: 3.322644357812633e-05
+auc: 0.6170371260362849
+estimated end time: 2021 / 2 / 6    12 : 18
+epoch: 68
+train loss: 3.27419847571005e-05
+auc: 0.6188393608074012
+estimated end time: 2021 / 2 / 6    12 : 18
+epoch: 69
+train loss: 3.147261601427466e-05
+auc: 0.6191157034723056
+estimated end time: 2021 / 2 / 6    12 : 18
+epoch: 70
+train loss: 2.868368269563971e-05
+auc: 0.6188033161119788
+estimated end time: 2021 / 2 / 6    12 : 18
+epoch: 71
+train loss: 2.942610968947802e-05
+auc: 0.6201009251471825
+estimated end time: 2021 / 2 / 6    12 : 17
+epoch: 72
+train loss: 3.3175664195980435e-05
+auc: 0.620593535984621
+estimated end time: 2021 / 2 / 6    12 : 17
+epoch: 73
+train loss: 3.6164201168472134e-05
+auc: 0.6214225639793344
+estimated end time: 2021 / 2 / 6    12 : 17
+epoch: 74
+train loss: 3.459236468306072e-05
+auc: 0.6216148023549202
+estimated end time: 2021 / 2 / 6    12 : 17
+epoch: 75
+train loss: 3.031399818970887e-05
+auc: 0.6190676438784093
+estimated end time: 2021 / 2 / 6    12 : 17
+epoch: 76
+train loss: 3.633104686875005e-05
+auc: 0.6171092154271297
+estimated end time: 2021 / 2 / 6    12 : 17
+epoch: 77
+train loss: 3.296270823354995e-05
+auc: 0.6137931034482759
+estimated end time: 2021 / 2 / 6    12 : 17
+epoch: 78
+train loss: 2.9870271169266776e-05
+auc: 0.6117385558092034
+estimated end time: 2021 / 2 / 6    12 : 17
+epoch: 79
+train loss: 2.8841046808589327e-05
+auc: 0.6079899074852818
+estimated end time: 2021 / 2 / 6    12 : 17
+epoch: 80
+train loss: 2.9183199883234545e-05
+auc: 0.6051664063438664
+estimated end time: 2021 / 2 / 6    12 : 17
+epoch: 81
+train loss: 2.6776768976529198e-05
+auc: 0.602330890303977
+estimated end time: 2021 / 2 / 6    12 : 16
+epoch: 82
+train loss: 2.4886620279034857e-05
+auc: 0.6006007449237054
+estimated end time: 2021 / 2 / 6    12 : 16
+epoch: 83
+train loss: 2.3899917554531228e-05
+auc: 0.5993992550762947
+estimated end time: 2021 / 2 / 6    12 : 16
+epoch: 84
+train loss: 2.1123824392126498e-05
+auc: 0.5983900036044696
+estimated end time: 2021 / 2 / 6    12 : 16
+epoch: 85
+train loss: 2.2818260121986333e-05
+auc: 0.5957226961432176
+estimated end time: 2021 / 2 / 6    12 : 16
+epoch: 86
+train loss: 2.6939590804102347e-05
+auc: 0.5948095638591854
+estimated end time: 2021 / 2 / 6    12 : 16
+epoch: 87
+train loss: 3.618068742839412e-05
+auc: 0.596107172894389
+estimated end time: 2021 / 2 / 6    12 : 16
+epoch: 88
+train loss: 2.719805329865392e-05
+auc: 0.5970443349753695
+estimated end time: 2021 / 2 / 6    12 : 16
+epoch: 89
+train loss: 2.4824141471840293e-05
+auc: 0.5988585846449597
+estimated end time: 2021 / 2 / 6    12 : 16
+epoch: 90
+train loss: 2.4030071097450703e-05
+auc: 0.6010933557611438
+estimated end time: 2021 / 2 / 6    12 : 16
+epoch: 91
+train loss: 2.4711833842455486e-05
+auc: 0.6039529015979814
+estimated end time: 2021 / 2 / 6    12 : 16
+epoch: 92
+train loss: 2.0277527078335346e-05
+auc: 0.6062717770034843
+estimated end time: 2021 / 2 / 6    12 : 16
+epoch: 93
+train loss: 2.1253182022315614e-05
+auc: 0.6089631142616845
+estimated end time: 2021 / 2 / 6    12 : 16
+epoch: 94
+train loss: 1.9663438146427984e-05
+auc: 0.6123753454283312
+estimated end time: 2021 / 2 / 6    12 : 16
+epoch: 95
+train loss: 1.8619163983524638e-05
+auc: 0.6151267571789019
+estimated end time: 2021 / 2 / 6    12 : 16
+epoch: 96
+train loss: 1.7528649484653402e-05
+auc: 0.6185029436501261
+estimated end time: 2021 / 2 / 6    12 : 16
+epoch: 97
+train loss: 1.643868705847471e-05
+auc: 0.6217950258320317
+estimated end time: 2021 / 2 / 6    12 : 16
+epoch: 98
+train loss: 1.5233121493550024e-05
+auc: 0.6252072569986783
+estimated end time: 2021 / 2 / 6    12 : 16
+epoch: 99
+train loss: 1.3774586257544923e-05
+auc: 0.6294845608554608
+estimated end time: 2021 / 2 / 6    12 : 16
+epoch: 100
+train loss: 1.3558698095172579e-05
+auc: 0.6319356001441787
+estimated end time: 2021 / 2 / 6    12 : 16
+epoch: 101
+train loss: 1.2037723903129769e-05
+auc: 0.6342184308542592
+estimated end time: 2021 / 2 / 6    12 : 16
+epoch: 102
+train loss: 1.1862276056913759e-05
+auc: 0.637077976691097
+estimated end time: 2021 / 2 / 6    12 : 16
+epoch: 103
+train loss: 9.969626602202785e-06
+auc: 0.6395049861828668
+estimated end time: 2021 / 2 / 6    12 : 16
+epoch: 104
+train loss: 1.0755762236095537e-05
+auc: 0.6415234891265169
+estimated end time: 2021 / 2 / 6    12 : 16
+epoch: 105
+train loss: 1.0804088792375642e-05
+auc: 0.6433257238976331
+estimated end time: 2021 / 2 / 6    12 : 16
+epoch: 106
+train loss: 9.675947020743227e-06
+auc: 0.6443830349633546
+estimated end time: 2021 / 2 / 6    12 : 16
+epoch: 107
+train loss: 8.8064134211922e-06
+auc: 0.6457287035924546
+estimated end time: 2021 / 2 / 6    12 : 16
+epoch: 108
+train loss: 1.1118309814837003e-05
+auc: 0.6490448155713084
+estimated end time: 2021 / 2 / 6    12 : 15
+epoch: 109
+train loss: 9.307936534633913e-06
+auc: 0.6525051063318514
+estimated end time: 2021 / 2 / 6    12 : 15
+epoch: 110
+train loss: 9.184191362535409e-06
+auc: 0.6539949537426408
+estimated end time: 2021 / 2 / 6    12 : 15
+epoch: 111
+train loss: 1.024241509585095e-05
+auc: 0.6541871921182265
+estimated end time: 2021 / 2 / 6    12 : 15
+epoch: 112
+train loss: 8.412977951891285e-06
+auc: 0.6554127117625856
+estimated end time: 2021 / 2 / 6    12 : 15
+epoch: 113
+train loss: 8.436644869475616e-06
+auc: 0.6577436020665626
+estimated end time: 2021 / 2 / 6    12 : 15
+epoch: 114
+train loss: 8.443196651832107e-06
+auc: 0.6597621050102127
+estimated end time: 2021 / 2 / 6    12 : 15
+epoch: 115
+train loss: 8.696739824299899e-06
+auc: 0.6598462092995314
+estimated end time: 2021 / 2 / 6    12 : 15
+epoch: 116
+train loss: 9.370816812979055e-06
+auc: 0.6612879971164243
+estimated end time: 2021 / 2 / 6    12 : 15
+epoch: 117
+train loss: 9.087821298741236e-06
+auc: 0.6622251591974048
+estimated end time: 2021 / 2 / 6    12 : 15
+epoch: 118
+train loss: 7.938342051261316e-06
+auc: 0.6629580680043253
+estimated end time: 2021 / 2 / 6    12 : 15
+epoch: 119
+train loss: 8.142432360775023e-06
+auc: 0.6641114982578397
+estimated end time: 2021 / 2 / 6    12 : 15
+epoch: 120
+train loss: 8.521527915612406e-06
+auc: 0.6657214946533702
+estimated end time: 2021 / 2 / 6    12 : 15
+epoch: 121
+train loss: 1.0028628079794543e-05
+auc: 0.6662020905923345
+estimated end time: 2021 / 2 / 6    12 : 15
+epoch: 122
+train loss: 8.565858559387411e-06
+auc: 0.6674756698305899
+estimated end time: 2021 / 2 / 6    12 : 15
+epoch: 123
+train loss: 7.37507899902445e-06
+auc: 0.6688453682566382
+estimated end time: 2021 / 2 / 6    12 : 15
+epoch: 124
+train loss: 6.997525017811375e-06
+auc: 0.6696383515559292
+estimated end time: 2021 / 2 / 6    12 : 15
+epoch: 125
+train loss: 6.5715950988721395e-06
+auc: 0.6709599903880812
+estimated end time: 2021 / 2 / 6    12 : 15
+epoch: 126
+train loss: 7.156318217433746e-06
+auc: 0.6726661059714045
+estimated end time: 2021 / 2 / 6    12 : 15
+epoch: 127
+train loss: 1.0267620771546246e-05
+auc: 0.6736032680523849
+estimated end time: 2021 / 2 / 6    12 : 15
+epoch: 128
+train loss: 8.4006575131776e-06
+auc: 0.6743241619608313
+estimated end time: 2021 / 2 / 6    12 : 15
+epoch: 129
+train loss: 7.570965239806512e-06
+auc: 0.6754775922143457
+estimated end time: 2021 / 2 / 6    12 : 15
+epoch: 130
+train loss: 8.580142329116103e-06
+auc: 0.6771356482037727
+estimated end time: 2021 / 2 / 6    12 : 15
+epoch: 131
+train loss: 7.88141136334569e-06
+auc: 0.678409227442028
+estimated end time: 2021 / 2 / 6    12 : 15
+epoch: 132
+train loss: 7.1125614165966594e-06
+auc: 0.6795626576955425
+estimated end time: 2021 / 2 / 6    12 : 15
+epoch: 133
+train loss: 6.094797146065032e-06
+auc: 0.6810044455124354
+estimated end time: 2021 / 2 / 6    12 : 15
+epoch: 134
+train loss: 5.9676070671637964e-06
+auc: 0.6812687732788657
+estimated end time: 2021 / 2 / 6    12 : 15
+epoch: 135
+train loss: 5.965761240561121e-06
+auc: 0.6822059353598462
+estimated end time: 2021 / 2 / 6    12 : 15
+epoch: 136
+train loss: 6.8247410659939214e-06
+auc: 0.6826384717049141
+estimated end time: 2021 / 2 / 6    12 : 15
+epoch: 137
+train loss: 9.06675550493611e-06
+auc: 0.6842004085065481
+estimated end time: 2021 / 2 / 6    12 : 15
+epoch: 138
+train loss: 6.69372755212329e-06
+auc: 0.6854499579478553
+estimated end time: 2021 / 2 / 6    12 : 15
+epoch: 139
+train loss: 6.820930794784263e-06
+auc: 0.6875886098762465
+estimated end time: 2021 / 2 / 6    12 : 15
+epoch: 140
+train loss: 6.929543556566387e-06
+auc: 0.6892947254595698
+estimated end time: 2021 / 2 / 6    12 : 15
+epoch: 141
+train loss: 6.208440923818796e-06
+auc: 0.6902559173374985
+estimated end time: 2021 / 2 / 6    12 : 15
+epoch: 142
+train loss: 6.989160649364466e-06
+auc: 0.691649645560495
+estimated end time: 2021 / 2 / 6    12 : 15
+epoch: 143
+train loss: 5.993163994123185e-06
+auc: 0.692538748047579
+estimated end time: 2021 / 2 / 6    12 : 15
+epoch: 144
+train loss: 6.250615146639355e-06
+auc: 0.6934518803316112
+estimated end time: 2021 / 2 / 6    12 : 15
+epoch: 145
+train loss: 6.648303591928511e-06
+auc: 0.6947254595698666
+estimated end time: 2021 / 2 / 6    12 : 15
+epoch: 146
+train loss: 5.87647085910311e-06
+auc: 0.6955424726661059
+estimated end time: 2021 / 2 / 6    12 : 15
+epoch: 147
+train loss: 6.179495850072522e-06
+auc: 0.6965036645440346
+estimated end time: 2021 / 2 / 6    12 : 15
+epoch: 148
+train loss: 5.8763690181398615e-06
+auc: 0.6980656013456685
+estimated end time: 2021 / 2 / 6    12 : 15
+epoch: 149
+train loss: 5.0584679548858825e-06
+auc: 0.6990267932235972
+estimated end time: 2021 / 2 / 6    12 : 15
+epoch: 150
+train loss: 5.196801598705453e-06
+auc: 0.6998197765228884
+estimated end time: 2021 / 2 / 6    12 : 15
+epoch: 151
+train loss: 5.769051148753345e-06
+auc: 0.7003724618526974
+estimated end time: 2021 / 2 / 6    12 : 15
+epoch: 152
+train loss: 5.000374990564868e-06
+auc: 0.700997236573351
+estimated end time: 2021 / 2 / 6    12 : 14
+epoch: 153
+train loss: 4.694445280212425e-06
+auc: 0.7017661900756937
+estimated end time: 2021 / 2 / 6    12 : 14
+epoch: 154
+train loss: 5.049457858333505e-06
+auc: 0.7026312627658295
+estimated end time: 2021 / 2 / 6    12 : 14
+epoch: 155
+train loss: 4.8092353623509366e-06
+auc: 0.7033040970803797
+estimated end time: 2021 / 2 / 6    12 : 14
+epoch: 156
+train loss: 5.182429609754794e-06
+auc: 0.7038087228162921
+estimated end time: 2021 / 2 / 6    12 : 14
+epoch: 157
+train loss: 6.139116831114922e-06
+auc: 0.7050342424606512
+estimated end time: 2021 / 2 / 6    12 : 14
+epoch: 158
+train loss: 5.732802613900684e-06
+auc: 0.7058752853538388
+estimated end time: 2021 / 2 / 6    12 : 14
+epoch: 159
+train loss: 4.7835481899679065e-06
+auc: 0.7061396131202691
+estimated end time: 2021 / 2 / 6    12 : 14
+epoch: 160
+train loss: 4.75564910760403e-06
+auc: 0.7066442388561817
+estimated end time: 2021 / 2 / 6    12 : 14
+epoch: 161
+train loss: 4.111292167520192e-06
+auc: 0.7073170731707317
+estimated end time: 2021 / 2 / 6    12 : 14
+epoch: 162
+train loss: 3.967991821598153e-06
+auc: 0.7083743842364532
+estimated end time: 2021 / 2 / 6    12 : 14
+epoch: 163
+train loss: 4.262068402983365e-06
+auc: 0.7093355761143818
+estimated end time: 2021 / 2 / 6    12 : 14
+epoch: 164
+train loss: 4.432581150371694e-06
+auc: 0.7097440826625014
+estimated end time: 2021 / 2 / 6    12 : 14
+epoch: 165
+train loss: 3.7648383287225035e-06
+auc: 0.7107052745404301
+estimated end time: 2021 / 2 / 6    12 : 14
+epoch: 166
+train loss: 3.8545805797353155e-06
+auc: 0.7111858704793944
+estimated end time: 2021 / 2 / 6    12 : 14
+epoch: 167
+train loss: 4.075504770590779e-06
+auc: 0.7120028835756338
+estimated end time: 2021 / 2 / 6    12 : 14
+epoch: 168
+train loss: 4.048527498594404e-06
+auc: 0.7126276582962874
+estimated end time: 2021 / 2 / 6    12 : 14
+epoch: 169
+train loss: 3.992842973906559e-06
+auc: 0.7135407905803196
+estimated end time: 2021 / 2 / 6    12 : 14
+epoch: 170
+train loss: 4.916953843964369e-06
+auc: 0.7144539228643518
+estimated end time: 2021 / 2 / 6    12 : 14
+epoch: 171
+train loss: 4.729194499573403e-06
+auc: 0.714814369818575
+estimated end time: 2021 / 2 / 6    12 : 14
+epoch: 172
+train loss: 4.564047310493842e-06
+auc: 0.7151988465697465
+estimated end time: 2021 / 2 / 6    12 : 14
+epoch: 173
+train loss: 4.322899116543951e-06
+auc: 0.7159678000720893
+estimated end time: 2021 / 2 / 6    12 : 14
+epoch: 174
+train loss: 4.54411345963269e-06
+auc: 0.7169049621530699
+estimated end time: 2021 / 2 / 6    12 : 14
+epoch: 175
+train loss: 4.408870604826352e-06
+auc: 0.7169530217469662
+estimated end time: 2021 / 2 / 6    12 : 14
+epoch: 176
+train loss: 3.7658764608162026e-06
+auc: 0.7173855580920341
+estimated end time: 2021 / 2 / 6    12 : 14
+epoch: 177
+train loss: 4.043531479351651e-06
+auc: 0.7176979454523609
+estimated end time: 2021 / 2 / 6    12 : 14
+epoch: 178
+train loss: 4.515538826557656e-06
+auc: 0.7182506307821699
+estimated end time: 2021 / 2 / 6    12 : 14
+epoch: 179
+train loss: 3.8108603447994936e-06
+auc: 0.719259882253995
+estimated end time: 2021 / 2 / 6    12 : 14
+epoch: 180
+train loss: 3.812028382481395e-06
+auc: 0.7200288357563378
+estimated end time: 2021 / 2 / 6    12 : 14
+epoch: 181
+train loss: 4.0278567129411355e-06
+auc: 0.7201970443349753
+estimated end time: 2021 / 2 / 6    12 : 14
+epoch: 182
+train loss: 4.503178518801037e-06
+auc: 0.7210140574312147
+estimated end time: 2021 / 2 / 6    12 : 14
+epoch: 183
+train loss: 5.395291879873137e-06
+auc: 0.7212303256037487
+estimated end time: 2021 / 2 / 6    12 : 14
+epoch: 184
+train loss: 4.3557193644824895e-06
+auc: 0.7219031599182987
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 185
+train loss: 4.593598079485799e-06
+auc: 0.7224798750450558
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 186
+train loss: 3.906078930379738e-06
+auc: 0.7227682326084344
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 187
+train loss: 4.046187572628006e-06
+auc: 0.7232488285473987
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 188
+train loss: 5.210749694104434e-06
+auc: 0.7236092755016219
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 189
+train loss: 4.686850961916364e-06
+auc: 0.7239937522527935
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 190
+train loss: 4.183744905092148e-06
+auc: 0.7248107653490328
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 191
+train loss: 3.629514530357796e-06
+auc: 0.7250991229124113
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 192
+train loss: 3.802918139193668e-06
+auc: 0.7248828547398773
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 193
+train loss: 4.513862781691544e-06
+auc: 0.7250750931154631
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 194
+train loss: 4.548055406613018e-06
+auc: 0.7258440466178061
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 195
+train loss: 4.073789093954004e-06
+auc: 0.7261564339781328
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 196
+train loss: 3.858734003981995e-06
+auc: 0.7263246425567704
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 197
+train loss: 2.9431062609403553e-06
+auc: 0.7266850895109936
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 198
+train loss: 3.157080614602725e-06
+auc: 0.7269013576835275
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 199
+train loss: 2.8416746404061618e-06
+auc: 0.727502102607233
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 200
+train loss: 3.169673663033587e-06
+auc: 0.7280788177339901
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 201
+train loss: 3.3981524855801518e-06
+auc: 0.7285594136729545
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 202
+train loss: 2.8604826597749143e-06
+auc: 0.7288237414393848
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 203
+train loss: 3.2111415111130712e-06
+auc: 0.729857022708158
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 204
+train loss: 3.045073978373223e-06
+auc: 0.7296647843325724
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 205
+train loss: 2.8067374669331393e-06
+auc: 0.7303135888501742
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 206
+train loss: 2.912274690350285e-06
+auc: 0.7307461251952421
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 207
+train loss: 2.4940441974028373e-06
+auc: 0.7312267211342064
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 208
+train loss: 2.77940364108825e-06
+auc: 0.7319476150426529
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 209
+train loss: 2.955605302166132e-06
+auc: 0.7323801513877208
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 210
+train loss: 2.8147692671756557e-06
+auc: 0.7333894028595459
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 211
+train loss: 2.705024705072635e-06
+auc: 0.733845969001562
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 212
+train loss: 2.518577489790483e-06
+auc: 0.7342304457527334
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 213
+train loss: 3.14899407272676e-06
+auc: 0.7350474588489727
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 214
+train loss: 2.4635742829461596e-06
+auc: 0.7353838760062478
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 215
+train loss: 2.4204159575545198e-06
+auc: 0.7356001441787817
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 216
+train loss: 2.810335884925837e-06
+auc: 0.7366454403460291
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 217
+train loss: 2.33658325698151e-06
+auc: 0.7372942448636309
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 218
+train loss: 2.6011844160860102e-06
+auc: 0.7374624534422685
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 219
+train loss: 2.6940891707248472e-06
+auc: 0.7379550642797068
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 220
+train loss: 2.476873725964291e-06
+auc: 0.7384596900156194
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 221
+train loss: 2.436287298038529e-06
+auc: 0.7392166286194881
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 222
+train loss: 2.4621235322664185e-06
+auc: 0.739757299050823
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 223
+train loss: 2.589148832092978e-06
+auc: 0.7400456566142016
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 224
+train loss: 2.5352779520327155e-06
+auc: 0.7406704313348552
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 225
+train loss: 2.493530962314692e-06
+auc: 0.7409107293043373
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 226
+train loss: 2.387662081510935e-06
+auc: 0.7414153550402499
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 227
+train loss: 2.525172962243726e-06
+auc: 0.7418959509792142
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 228
+train loss: 2.626335875630965e-06
+auc: 0.742208338339541
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 229
+train loss: 2.2876402230187116e-06
+auc: 0.7427009491769794
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 230
+train loss: 2.3153034004410294e-06
+auc: 0.7431455004205215
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 231
+train loss: 2.3499705127666607e-06
+auc: 0.7436741559533822
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 232
+train loss: 2.524119636247186e-06
+auc: 0.7437342304457528
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 233
+train loss: 2.260605620881702e-06
+auc: 0.7445752733389404
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 234
+train loss: 2.285825626018848e-06
+auc: 0.7448516160038448
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 235
+train loss: 2.3654985552629317e-06
+auc: 0.7453562417397572
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 236
+train loss: 2.070490837685815e-06
+auc: 0.7457887780848251
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 237
+train loss: 2.2544733764989204e-06
+auc: 0.7459089270695662
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 238
+train loss: 2.3542470019371085e-06
+auc: 0.7463654932115824
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 239
+train loss: 2.2352101568450397e-06
+auc: 0.7465937762825904
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 240
+train loss: 2.282223362274847e-06
+auc: 0.746882133845969
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 241
+train loss: 2.0605052045715607e-06
+auc: 0.7473867595818815
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 242
+train loss: 2.4981504758894232e-06
+auc: 0.7474828787696743
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 243
+train loss: 2.2507123373008323e-06
+auc: 0.7479634747086387
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 244
+train loss: 2.3004858274456136e-06
+auc: 0.7486122792262406
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 245
+train loss: 2.2345809519698644e-06
+auc: 0.7487324282109816
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 246
+train loss: 2.2614328911615678e-06
+auc: 0.7491649645560495
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 247
+train loss: 2.394181474903885e-06
+auc: 0.749561456205695
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 248
+train loss: 2.0549300520572003e-06
+auc: 0.7496095157995915
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 249
+train loss: 2.186766123569755e-06
+auc: 0.7496095157995915
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 250
+train loss: 2.153124404923668e-06
+auc: 0.7496095157995915
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 251
+train loss: 2.281225590454126e-06
+auc: 0.7499699627538148
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 252
+train loss: 2.697217187326142e-06
+auc: 0.7501862309263486
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 253
+train loss: 1.9785481426712805e-06
+auc: 0.7503544395049861
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 254
+train loss: 2.031332732746376e-06
+auc: 0.7508350354439505
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 255
+train loss: 2.0864798734486344e-06
+auc: 0.7510993632103808
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 256
+train loss: 2.063128229826032e-06
+auc: 0.7514598101646041
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 257
+train loss: 2.0826126479999495e-06
+auc: 0.7514357803676559
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 258
+train loss: 2.4015521226772306e-06
+auc: 0.7518322720173014
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 259
+train loss: 1.9206807748603216e-06
+auc: 0.7519524210020425
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 260
+train loss: 1.954204413787226e-06
+auc: 0.7524570467379551
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 261
+train loss: 2.2635079530249023e-06
+auc: 0.752889583083023
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 262
+train loss: 1.934713235583225e-06
+auc: 0.7534662982097802
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 263
+train loss: 2.148025523165474e-06
+auc: 0.7537065961792623
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 264
+train loss: 2.2522714307773767e-06
+auc: 0.7539228643517962
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 265
+train loss: 2.075158275579466e-06
+auc: 0.7541391325243301
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 266
+train loss: 1.954448150049051e-06
+auc: 0.7546437582602428
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 267
+train loss: 2.085493415085364e-06
+auc: 0.754908086026673
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 268
+train loss: 2.1461558205995233e-06
+auc: 0.7547879370419319
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 269
+train loss: 2.1917861550774817e-06
+auc: 0.7549801754175177
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 270
+train loss: 1.9808916828745578e-06
+auc: 0.754908086026673
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 271
+train loss: 2.16634544057997e-06
+auc: 0.7549801754175178
+estimated end time: 2021 / 2 / 6    12 : 13
+epoch: 272
+train loss: 2.214944266178275e-06
+auc: 0.7552445031839481
+estimated end time: 2021 / 2 / 6    12 : 12
+epoch: 273
+train loss: 1.8879852411622512e-06
+auc: 0.7555088309503785
+estimated end time: 2021 / 2 / 6    12 : 12
+epoch: 274
+train loss: 2.1656144721907036e-06
+auc: 0.7556530097320677
+estimated end time: 2021 / 2 / 6    12 : 12
+epoch: 275
+train loss: 2.0145150019920006e-06
+auc: 0.7558692779046017
+estimated end time: 2021 / 2 / 6    12 : 12
+epoch: 276
+train loss: 2.1156008469126886e-06
+auc: 0.7560374864832393
+estimated end time: 2021 / 2 / 6    12 : 12
+epoch: 277
+train loss: 1.8418318053304887e-06
+auc: 0.7560855460771356
+estimated end time: 2021 / 2 / 6    12 : 12
+epoch: 278
+train loss: 2.229678317116987e-06
+auc: 0.7562056950618767
+estimated end time: 2021 / 2 / 6    12 : 12
+epoch: 279
+train loss: 1.872754873182434e-06
+auc: 0.7563018142496696
+estimated end time: 2021 / 2 / 6    12 : 12
+epoch: 280
+train loss: 1.835915601319506e-06
+auc: 0.7564459930313588
+estimated end time: 2021 / 2 / 6    12 : 12
+epoch: 281
+train loss: 2.074131176352341e-06
+auc: 0.756445993031359
+estimated end time: 2021 / 2 / 6    12 : 12
+epoch: 282
+train loss: 1.6859408213835634e-06
+auc: 0.7567583803916857
+estimated end time: 2021 / 2 / 6    12 : 12
+epoch: 283
+train loss: 1.8929465067797396e-06
+auc: 0.7568785293764267
+estimated end time: 2021 / 2 / 6    12 : 12
+epoch: 284
+train loss: 1.7925360107270685e-06
+auc: 0.7564459930313588
+estimated end time: 2021 / 2 / 6    12 : 12
+epoch: 285
+train loss: 2.118704695640151e-06
+auc: 0.7563498738435661
+estimated end time: 2021 / 2 / 6    12 : 12
+epoch: 286
+train loss: 1.8142224463750952e-06
+auc: 0.7569746485642196
+estimated end time: 2021 / 2 / 6    12 : 12
+epoch: 287
+train loss: 2.034333694309915e-06
+auc: 0.757022708158116
+estimated end time: 2021 / 2 / 6    12 : 12
+epoch: 288
+train loss: 1.7492632767700484e-06
+auc: 0.7571188273459089
+estimated end time: 2021 / 2 / 6    12 : 12
+epoch: 289
+train loss: 1.751192206417476e-06
+auc: 0.7568304697825303
+estimated end time: 2021 / 2 / 6    12 : 12
+epoch: 290
+train loss: 1.855471383392122e-06
+auc: 0.7567223356962633
+estimated end time: 2021 / 2 / 6    12 : 12
+epoch: 291
+train loss: 2.105489108192783e-06
+auc: 0.7572990508230206
+estimated end time: 2021 / 2 / 6    12 : 12
+epoch: 292
+train loss: 1.854458750913103e-06
+auc: 0.7566983058993151
+estimated end time: 2021 / 2 / 6    12 : 12
+epoch: 293
+train loss: 1.962773252789565e-06
+auc: 0.7570587528535384
+estimated end time: 2021 / 2 / 6    12 : 12
+epoch: 294
+train loss: 1.8859280057748444e-06
+auc: 0.7567463654932116
+estimated end time: 2021 / 2 / 6    12 : 12
+epoch: 295
+train loss: 1.913167849589913e-06
+auc: 0.756458007929833
+estimated end time: 2021 / 2 / 6    12 : 12
+epoch: 296
+train loss: 1.6920907247869513e-06
+auc: 0.7565300973206777
+estimated end time: 2021 / 2 / 6    12 : 12
+epoch: 297
+train loss: 1.9838218648505423e-06
+auc: 0.7565781569145741
+estimated end time: 2021 / 2 / 6    12 : 12
+epoch: 298
+train loss: 1.7998066101997352e-06
+auc: 0.7572750210260724
+estimated end time: 2021 / 2 / 6    12 : 12
+epoch: 299
+train loss: 1.849732082103495e-06
+auc: 0.7572029316352277
+estimated end time: 2021 / 2 / 6    12 : 12
+epoch: 300
+train loss: 2.030501486722638e-06
+auc: 0.7570106932596419
+estimated end time: 2021 / 2 / 6    12 : 12
+epoch: 301
+train loss: 1.6982658527269748e-06
+auc: 0.7577315871680884
+estimated end time: 2021 / 2 / 6    12 : 12
+epoch: 302
+train loss: 1.992783292765984e-06
+auc: 0.7574191998077617
+estimated end time: 2021 / 2 / 6    12 : 12
+epoch: 303
+train loss: 1.7971973843712335e-06
+auc: 0.7578036765589331
+estimated end time: 2021 / 2 / 6    12 : 12
+epoch: 304
+train loss: 1.9201592324005278e-06
+auc: 0.7578277063558813
+estimated end time: 2021 / 2 / 6    12 : 12
+epoch: 305
+train loss: 1.7274558062433502e-06
+auc: 0.7577075573711403
+estimated end time: 2021 / 2 / 6    12 : 12
+epoch: 306
+train loss: 1.8264184508879076e-06
+auc: 0.7582842724978973
+estimated end time: 2021 / 2 / 6    12 : 12
+epoch: 307
+train loss: 1.8496473493922262e-06
+auc: 0.7584044214826385
+estimated end time: 2021 / 2 / 6    12 : 11
+epoch: 308
+train loss: 1.6785352183990787e-06
+auc: 0.7582121831070527
+estimated end time: 2021 / 2 / 6    12 : 11
+epoch: 309
+train loss: 1.8072013150757506e-06
+auc: 0.758572630061276
+estimated end time: 2021 / 2 / 6    12 : 11
+epoch: 310
+train loss: 1.899875103081795e-06
+auc: 0.7581400937162079
+estimated end time: 2021 / 2 / 6    12 : 11
+epoch: 311
+train loss: 1.5403586015716835e-06
+auc: 0.758236212904001
+estimated end time: 2021 / 2 / 6    12 : 11
+epoch: 312
+train loss: 1.7098371347622066e-06
+auc: 0.7575633785894509
+estimated end time: 2021 / 2 / 6    12 : 11
+epoch: 313
+train loss: 1.8717631909334715e-06
+auc: 0.7575633785894509
+estimated end time: 2021 / 2 / 6    12 : 11
+epoch: 314
+train loss: 1.6722687717394193e-06
+auc: 0.7574191998077615
+estimated end time: 2021 / 2 / 6    12 : 11
+epoch: 315
+train loss: 1.642730426721955e-06
+auc: 0.7576594977772437
+estimated end time: 2021 / 2 / 6    12 : 11
+epoch: 316
+train loss: 1.6539232368581553e-06
+auc: 0.7575153189955544
+estimated end time: 2021 / 2 / 6    12 : 11
+epoch: 317
+train loss: 1.7575056106904122e-06
+auc: 0.7578277063558814
+estimated end time: 2021 / 2 / 6    12 : 11
+epoch: 318
+train loss: 1.730425547894411e-06
+auc: 0.7580920341223116
+estimated end time: 2021 / 2 / 6    12 : 11
+epoch: 319
+train loss: 1.7260249513972488e-06
+auc: 0.7583323320917938
+estimated end time: 2021 / 2 / 6    12 : 11
+epoch: 320
+train loss: 1.7381606460227086e-06
+auc: 0.7585245704673795
+estimated end time: 2021 / 2 / 6    12 : 11
+epoch: 321
+train loss: 1.7774414103620263e-06
+auc: 0.7585486002643278
+estimated end time: 2021 / 2 / 6    12 : 11
+epoch: 322
+train loss: 1.5733895448732937e-06
+auc: 0.7586447194521206
+estimated end time: 2021 / 2 / 6    12 : 11
+epoch: 323
+train loss: 1.841736882003053e-06
+auc: 0.7585005406704314
+estimated end time: 2021 / 2 / 6    12 : 11
+epoch: 324
+train loss: 1.8283746698969103e-06
+auc: 0.7587408386399135
+estimated end time: 2021 / 2 / 6    12 : 11
+epoch: 325
+train loss: 1.7149070535489154e-06
+auc: 0.7580920341223117
+estimated end time: 2021 / 2 / 6    12 : 11
+epoch: 326
+train loss: 1.7222264694146556e-06
+auc: 0.7581160639192599
+estimated end time: 2021 / 2 / 6    12 : 11
+epoch: 327
+train loss: 1.872527581746187e-06
+auc: 0.7579718851375705
+estimated end time: 2021 / 2 / 6    12 : 11
+epoch: 328
+train loss: 1.4544035263732024e-06
+auc: 0.7583083022948456
+estimated end time: 2021 / 2 / 6    12 : 11
+epoch: 329
+train loss: 1.609887353149314e-06
+auc: 0.7585005406704313
+estimated end time: 2021 / 2 / 6    12 : 11
+epoch: 330
+train loss: 1.5539595660091413e-06
+auc: 0.7587648684368618
+estimated end time: 2021 / 2 / 6    12 : 11
+epoch: 331
+train loss: 1.9273756244821282e-06
+auc: 0.7585486002643278
+estimated end time: 2021 / 2 / 6    12 : 11
+epoch: 332
+train loss: 1.615168635613541e-06
+auc: 0.7584284512795867
+estimated end time: 2021 / 2 / 6    12 : 11
+epoch: 333

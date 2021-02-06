@@ -7,6 +7,7 @@ import torch.nn.functional as F
 
 import pickle
 import numpy as np
+import time
 import math # to check nan
 from sklearn import metrics
 
@@ -15,9 +16,11 @@ HYP={
     'miss_percent':0.1,
     'seed':2050,
     'batch_size':1024,
-    'lr_net':0.003,
-    'lr_dyn':0.001
+    'lr_net':0.001,
+    'lr_dyn':0.0001,
+    'epoch':400
 }
+print(HYP)
 del_num = int(HYP['node_num']*HYP['miss_percent'])
 torch.manual_seed(HYP['seed'])
 
@@ -102,11 +105,13 @@ class Gumbel_Generator(nn.Module):
         self.p = Parameter(torch.randn(sz,sz,2))
     def generate_adj(self):
         p0 = torch.nn.functional.softmax(self.p,dim=2)[:,:,1]
-        return p0
+        symp0 = torch.triu(p0,diagonal=0)+torch.triu(p0,diagonal=1).transpose(0,1) # make it symmetric
+        return symp0
         
     def sample_all(self):
         sampled_adj = torch.nn.functional.gumbel_softmax(self.p,hard=False,tau=1)[:,:,1]
-        return sampled_adj
+        sym_adj = torch.triu(sampled_adj,diagonal=0)+torch.triu(sampled_adj,diagonal=1).transpose(0,1)# make it symmetric
+        return sym_adj
 
 def load_cml_ggn(data_path,batch_size = 128,node=10,seed=2050):
 
@@ -149,7 +154,8 @@ def auc_unknown(p0,object_matrix,del_num):
     return area
 
 # load data
-data_path = './data/2000cmlkron128-2500.pickle'
+# data_path = './data/2000cmlkron128-2500.pickle'
+data_path = './data/2000cmlkron-ws128-10000.pickle'
 # a = torch.load(data_path,map_location=torch.device('cpu'))
 train_loader, val_loader, test_loader, object_matrix = load_cml_ggn(data_path,batch_size=HYP['batch_size'],node=HYP['node_num'])
 observed_adj = object_matrix[:-del_num,:-del_num]
@@ -158,7 +164,7 @@ observed_adj = object_matrix[:-del_num,:-del_num]
 generator = Gumbel_Generator(128).to(device)
 op_net = optim.Adam(generator.parameters(), lr=HYP['lr_net'])
 
-dyn = IO_B(1,16).to(device)
+dyn = IO_B(1,128).to(device)
 op_dyn = optim.Adam(dyn.parameters(), lr=HYP['lr_dyn'])
 
 train_uxg = Unknown_X_Generator(len(train_loader),HYP['batch_size'],del_num).to(device)
@@ -207,7 +213,8 @@ def train_dyn_gen():
 
 areas = []
 losses = []
-for i in range(100):
+times = []
+for i in range(HYP['epoch']):
     # print(generator.p)
     print('epoch:',i)
     loss = train_dyn_gen()
@@ -218,3 +225,12 @@ for i in range(100):
     area = auc_unknown(p0,object_matrix,del_num)
     print('auc:',area)
     areas.append(area)
+
+    # estimate end time
+    times.append(time.time())
+    if i > 2:
+        ls = times[-1]
+        fi = times[0]
+        end = (ls-fi)/i*HYP['epoch']+fi
+        tt = time.localtime(end) #time tuple
+        print('estimated end time:',tt.tm_year,'/',tt.tm_mon,'/',tt.tm_mday,'  ',tt.tm_hour,':',tt.tm_min)
